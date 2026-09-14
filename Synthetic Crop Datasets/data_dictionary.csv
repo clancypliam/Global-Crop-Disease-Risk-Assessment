@@ -1,0 +1,44 @@
+column_name,data_type,description
+country,object,Country name
+region,object,Geographic region
+continent,object,Continent
+climate_zone,object,Synthetic climate-zone category
+year,int64,Forecast year from 2026 to 2100
+season,object,Crop season
+crop_type,object,Crop name
+crop_group,object,Crop category
+growth_stage,object,Crop growth stage
+irrigation_type,object,Dominant irrigation system
+avg_temperature_c,float64,Average seasonal temperature in Celsius
+max_temperature_c,float64,Maximum seasonal temperature in Celsius
+min_temperature_c,float64,Minimum seasonal temperature in Celsius
+humidity_percent,float64,Average relative humidity percentage
+rainfall_mm,float64,Seasonal rainfall in millimeters
+soil_moisture,float64,Synthetic soil moisture index from 0 to 100
+soil_ph,float64,Soil pH level
+wind_speed_kmh,float64,Average wind speed in km/h
+leaf_wetness_index,float64,Leaf wetness index from 0 to 100
+drought_index,float64,Drought risk index from 0 to 100
+flood_risk_score,float64,Flood risk score from 0 to 100
+heatwave_days,int64,Estimated heatwave days in season
+pest_pressure_score,float64,Pest pressure score from 0 to 100
+disease_name,object,Crop disease name
+disease_category,object,"Fungal, bacterial, viral, or oomycete disease category"
+symptoms,object,Visible symptoms for disease identification
+affected_plant_part,object,Most affected plant part
+biological_control,object,Biological or non-chemical control suggestion
+chemical_control,object,Chemical control suggestion; apply only according to local advisory
+prevention_method,object,Preventive agronomic practice
+fungal_risk_score,float64,Fungal disease risk score
+bacterial_risk_score,float64,Bacterial disease risk score
+viral_risk_score,float64,Viral disease risk score
+disease_probability,float64,Synthetic probability of disease occurrence
+disease_severity,object,"Low, Moderate, High, or Critical severity class"
+outbreak_probability_next_30_days,float64,Synthetic 30-day outbreak probability
+outbreak_probability_next_90_days,float64,Synthetic 90-day outbreak probability
+expected_yield_ton_per_hectare,float64,Expected crop yield in tons per hectare
+expected_yield_loss_percent,float64,Estimated yield loss percentage
+estimated_economic_loss_usd_per_hectare,float64,Estimated economic loss per hectare in USD
+estimated_recovery_days,int64,Estimated recovery period after intervention
+estimated_recovery_rate_percent,float64,Estimated recovery rate after recommended intervention
+food_security_impact_score,float64,Food security impact score from 0 to 100
